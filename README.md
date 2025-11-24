@@ -4,6 +4,8 @@
 
 This GitHub Action posts a comment on a Pull Request with details from an associated [Jules](https://jules.google) session. It detects the Jules session ID from the PR description, fetches session details and artifacts (like media), and posts a summary comment.
 
+**Note:** This only works for tasks started from the account associated with the Jules API key stored in your repo secrets.
+
 ## Prerequisites
 
 Before using this action, you must have:
